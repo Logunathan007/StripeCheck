@@ -1,0 +1,6 @@
+@StripeCheck.Service_HostAddress = http://localhost:5097
+
+GET {{StripeCheck.Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
