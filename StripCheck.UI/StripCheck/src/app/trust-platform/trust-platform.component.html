@@ -1,0 +1,23 @@
+<form action="" class="d-flex gap-3 justify-content-center">
+  <input type="number" placeholder="Enter a Amount" class="form-control w-25" style="min-width: 100px;" [(ngModel)]="amount" name="amount">
+  <div class="btn-group">
+    <button
+      type="button"
+      class="btn btn-secondary dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+    >
+      {{ selectedAccount == "" ? "Select" : selectedAccount }}
+    </button>
+    <ul class="dropdown-menu">
+      <li *ngFor="let item of accountList" (click)="selectedAccount = item">
+        <span class="dropdown-item">{{ item }}</span>
+      </li>
+    </ul>
+  </div>
+  <button type="button" class="btn btn-primary" (click)="payToPlatform()" [disabled]="selectedAccount=='' || amount==0" >Pay</button>
+</form>
+
+<div class="px-5 py-3 text-white fs-14 fw-medium position-fixed rounded" style="top:10px;right:10px;z-index:111111111;" *ngIf="notificationMessage.enable" [ngClass]="notificationMessage.colorClass">
+  {{notificationMessage.msg}}
+</div>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\StripeCheck.Service.props" />
+</Project>

@@ -1,0 +1,12 @@
+D:\Logu\Angular&.Net\StripeCheck\StripeCheck.Domain\bin\Debug\net8.0\StripeCheck.Domain.deps.json
+D:\Logu\Angular&.Net\StripeCheck\StripeCheck.Domain\bin\Debug\net8.0\StripeCheck.Domain.dll
+D:\Logu\Angular&.Net\StripeCheck\StripeCheck.Domain\bin\Debug\net8.0\StripeCheck.Domain.pdb
+D:\Logu\Angular&.Net\StripeCheck\StripeCheck.Domain\obj\Debug\net8.0\StripeCheck.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Logu\Angular&.Net\StripeCheck\StripeCheck.Domain\obj\Debug\net8.0\StripeCheck.Domain.AssemblyInfoInputs.cache
+D:\Logu\Angular&.Net\StripeCheck\StripeCheck.Domain\obj\Debug\net8.0\StripeCheck.Domain.AssemblyInfo.cs
+D:\Logu\Angular&.Net\StripeCheck\StripeCheck.Domain\obj\Debug\net8.0\StripeCheck.Domain.csproj.CoreCompileInputs.cache
+D:\Logu\Angular&.Net\StripeCheck\StripeCheck.Domain\obj\Debug\net8.0\StripeCheck.Domain.sourcelink.json
+D:\Logu\Angular&.Net\StripeCheck\StripeCheck.Domain\obj\Debug\net8.0\StripeCheck.Domain.dll
+D:\Logu\Angular&.Net\StripeCheck\StripeCheck.Domain\obj\Debug\net8.0\refint\StripeCheck.Domain.dll
+D:\Logu\Angular&.Net\StripeCheck\StripeCheck.Domain\obj\Debug\net8.0\StripeCheck.Domain.pdb
+D:\Logu\Angular&.Net\StripeCheck\StripeCheck.Domain\obj\Debug\net8.0\ref\StripeCheck.Domain.dll

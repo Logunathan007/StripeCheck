@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeCheck.Service", "StripeCheck.Service\StripeCheck.Service.csproj", "{CDBE666C-1343-4B1D-B46C-8FECE1765025}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StripeCheck.Service", "StripeCheck.Service\StripeCheck.Service.csproj", "{CDBE666C-1343-4B1D-B46C-8FECE1765025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeCheck.Application", "StripeCheck.Application\StripeCheck.Application.csproj", "{C4C62E6F-2593-4561-8CC1-24FBC6335F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeCheck.Persistence", "StripeCheck.Persistence\StripeCheck.Persistence.csproj", "{88B11B4E-C55C-496F-B724-9ACFF0025DA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeCheck.Domain", "StripeCheck.Domain\StripeCheck.Domain.csproj", "{762D5BB4-E19D-4162-92B2-F2361DB5BF6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{CDBE666C-1343-4B1D-B46C-8FECE1765025}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDBE666C-1343-4B1D-B46C-8FECE1765025}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDBE666C-1343-4B1D-B46C-8FECE1765025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C62E6F-2593-4561-8CC1-24FBC6335F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C62E6F-2593-4561-8CC1-24FBC6335F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C62E6F-2593-4561-8CC1-24FBC6335F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C62E6F-2593-4561-8CC1-24FBC6335F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88B11B4E-C55C-496F-B724-9ACFF0025DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B11B4E-C55C-496F-B724-9ACFF0025DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B11B4E-C55C-496F-B724-9ACFF0025DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B11B4E-C55C-496F-B724-9ACFF0025DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762D5BB4-E19D-4162-92B2-F2361DB5BF6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762D5BB4-E19D-4162-92B2-F2361DB5BF6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762D5BB4-E19D-4162-92B2-F2361DB5BF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762D5BB4-E19D-4162-92B2-F2361DB5BF6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

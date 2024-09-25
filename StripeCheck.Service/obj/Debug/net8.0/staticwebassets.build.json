@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LRXsvQA6O/QCNiSFrk2vZ8+ds6Mdhnmjk/kk09SFLaQ=",
+  "Source": "StripeCheck.Service",
+  "BasePath": "_content/StripeCheck.Service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

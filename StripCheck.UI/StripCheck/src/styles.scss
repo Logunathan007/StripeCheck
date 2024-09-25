@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+// Loop from 10 to 22 to create font-size classes
+@for $i from 10 through 22 {
+  .fs-#{$i} {
+    font-size: #{$i}px;
+  }
+}

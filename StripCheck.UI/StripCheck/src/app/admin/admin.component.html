@@ -1,0 +1,11 @@
+<form action="" class="d-flex gap-3 justify-content-center">
+  <input type="text" placeholder="Enter First Name" class="form-control w-25" style="min-width: 100px;" [(ngModel)]="firstName" name="firstName">
+  <input type="text" placeholder="Enter Last Name" class="form-control w-25" style="min-width: 100px;" [(ngModel)]="lastName" name="lastName">
+  <input type="email" placeholder="Enter Email" class="form-control w-25" style="min-width: 100px;" [(ngModel)]="email" name="email">
+  <input type="email" placeholder="Enter Referral Code for you" class="form-control w-25" style="min-width: 100px;" [(ngModel)]="referral" name="referral">
+  <button type="button" class="btn btn-primary" [disabled]="firstName=='' || lastName=='' || email=='' || referral == ''" (click)="onboard()" >Onboard</button>
+</form>
+
+<div class="px-5 py-3 text-white fs-14 fw-medium position-fixed rounded" style="top:10px;right:10px;z-index:111111111;" *ngIf="notificationMessage.enable" [ngClass]="notificationMessage.colorClass">
+  {{notificationMessage.msg}}
+</div>
