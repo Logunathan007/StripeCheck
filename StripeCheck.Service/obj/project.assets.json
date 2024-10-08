@@ -3179,6 +3179,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
+      "Stripe.net >= 45.14.0",
       "StripeCheck.Application >= 1.0.0",
       "StripeCheck.Persistence >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -3241,6 +3242,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.8, )"
+          },
+          "Stripe.net": {
+            "target": "Package",
+            "version": "[45.14.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

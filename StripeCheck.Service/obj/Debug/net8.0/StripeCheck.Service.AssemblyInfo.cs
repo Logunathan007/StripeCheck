@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StripeCheck.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+339e46d7e7b9c868f84e59c3a3e2a6a0b94619fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05493ef38470569891c4ffefea100a7f96a0005c")]
 [assembly: System.Reflection.AssemblyProductAttribute("StripeCheck.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StripeCheck.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

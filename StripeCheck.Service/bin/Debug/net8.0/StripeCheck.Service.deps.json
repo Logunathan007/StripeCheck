@@ -9,6 +9,7 @@
       "StripeCheck.Service/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "8.0.8",
+          "Stripe.net": "45.14.0",
           "StripeCheck.Application": "1.0.0",
           "StripeCheck.Persistence": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"

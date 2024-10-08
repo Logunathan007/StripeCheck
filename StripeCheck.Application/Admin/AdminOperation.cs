@@ -67,7 +67,6 @@ namespace StripeCheck.Application.Admin
                     },
                     Email = Email,
                     Phone = "0000000000",
-
                     Verification = new AccountIndividualVerificationOptions
                     {
                         Document = new AccountIndividualVerificationDocumentOptions

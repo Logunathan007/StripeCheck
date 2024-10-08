@@ -14,4 +14,8 @@
     <ProjectReference Include="..\StripeCheck.Persistence\StripeCheck.Persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+  </ItemGroup>
+
 </Project>
